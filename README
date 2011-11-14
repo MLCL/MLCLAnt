@@ -1,0 +1,46 @@
+# MLCLAnt
+
+MLCLAnt is a collection of Ant taskdefs created to help in the build process of Java projects.
+
+## Distribution 
+
+The software available in source-code and binaries. Binaries are available in the *Downloads* section of the project page at GitHub (https://github.com/MLCL/MLCLAnt). 
+
+## Dependencies
+
+The project requires [Java 6](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed on the system. As an extension to existing Ant tasks the project necessarily depends on Apache Ant [Apache Ant](http://ant.apache.org). The project also depends on JUnit [JUnit 4](http://www.junit.org/), which is required for unit testing the project.
+
+## Building
+
+Compiling the software from a source distribution
+
+### From the command line
+
+To compile the software from the command line:
+
+```sh
+$ ant dist
+```
+
+This will compile the source code, and create a new directory `/dist/` containing the project `jar` file, and a copy of the various required libraries.
+
+## Attribution 
+
+Special thanks to all members of the Machine Learning and Computational Linguistics Lab, School of Informatics, University of Sussex, for all the helpful input.
+
+## Contributing
+
+To contributed to the project you should fork the git repository. First click the "Fork" button on github. Then open a console and type the following:
+
+```sh
+$ git clone git@github.com:[your-user-name]/MLCLAnt.git
+$ cd MLCLLib
+$ git remote add upstream git@github.com:MLCL/MLCLAnt.git
+$ git fetch upstream
+```
+
+If you have changes to contribute back to the main project, send us a pull request by clicking the "Pull Request" button my fork of the repository.
+
+## Licence
+
+This software is distributed under the 3-clause [BSD Licence](https://raw.github.com/MLCL/MLCLLib/master/LICENCE).
